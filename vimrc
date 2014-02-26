@@ -145,12 +145,13 @@ autocmd BufReadPost *
 "Abbreviations
 ab #i #include
 ab #d #define
-ab #b /**************************************
-ab #e  **************************************/
 
 "Word completion
 set ignorecase
 
 map <C-n> :NERDTreeToggle<CR>
+
+let g:tagbar_usearrows = 1
+nnoremap <leader>l :TagbarToggle<CR>
 
 set path+=/usr/include/**,.,,
