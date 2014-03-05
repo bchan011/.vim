@@ -36,11 +36,8 @@ Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'SearchComplete'
 
-"
 " " non github repos
 
-"  ...
-"
 filetype plugin indent on     " required!
 
 " General Settings {
